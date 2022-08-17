@@ -9,13 +9,13 @@
 # Преимущество этого в том, что вы можете перебирать данные для достижения результата.
 
 # Code(1) --- >
-# def i(n):
-#   print(n)
-#   if n <= 1:
-#     return
-#   else:
-#     i(n - 1)
-# i(10)
+def i(n):
+  print(n)
+  if n <= 1:
+    return
+  else:
+    i(n - 1)
+i(10)
 # Code(2) --- >
 def fact(x):
   print(x, end = ' ')
